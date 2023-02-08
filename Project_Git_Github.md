@@ -8,7 +8,7 @@
 
 - Ungit: visual perception of the local repository
 
-- 4 conceptual area: 3 in my computer and 
+- 4 conceptual area: 3 in my computer and remore repository (Github)
 
 ## Where is the timeline:
 
@@ -56,12 +56,40 @@ $ git status
 
 Working on several files
 
-## View the history of the timeline
+## View the commit history
 
-$ $git log
+$ git log --oneline -> shows the IDs of the commits // **Head is the most uptodate one**
 
-  
+$ git log -p <filename>
+
+It also shows all the differences between the commits
+
+## Compare differences between the current and previous one
+
+$ git log --patch 
 
 
+
+## Traveling in the timeline
+
+git show <commit ID1> <commit ID2>
+
+git diff
+
+
+
+## Must-include when creating a repository
+
+1. ReadMe.md: Detaols description of the project and tool usage
+
+2.  .gitignore: List of files that should not be added to the repository
+   
+   - Data files
+   
+   - Backup files
+   
+   - Intermedite files
+   
+   
 
 
