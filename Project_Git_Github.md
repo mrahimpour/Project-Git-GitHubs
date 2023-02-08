@@ -68,21 +68,17 @@ It also shows all the differences between the commits
 
 $ git log --patch 
 
-
-
 ## Traveling in the timeline
 
-git show <commit ID1> <commit ID2>
+$ git show <commit ID1> <commit ID2>
 
-git diff
-
-
+$ git diff
 
 ## Must-include when creating a repository
 
 1. ReadMe.md: Detaols description of the project and tool usage
 
-2.  .gitignore: List of files that should not be added to the repository
+2. .gitignore: List of files that should not be added to the repository
    
    - Data files
    
@@ -90,6 +86,10 @@ git diff
    
    - Intermedite files
    
+   How you can make the .gitignore file: 
    
-
-
+   - Can list one by one
+   
+   - Can use template (Github)
+   
+   - 
