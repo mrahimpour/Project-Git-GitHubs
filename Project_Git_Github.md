@@ -118,4 +118,22 @@ $ git pull
 
 - Deleting the .git file (local repository): $ rm -rf .git
 
-- Recovering the .git file: $ git clone
+- Recovering the .git file: 
+  
+  - $ git clone (download/copy the whole repository)
+  
+  - $ git pull (to get the updates/changes)
+  
+  - $ git revet ID (get the ID by running git log)
+
+## How to add collaborator
+
+setting -> collaborators -> add people
+
+## How to get access to your collborator's repository
+
+clone it (copy the repository), create a floder on your local computer, to make the modification: add, commit, and then push ... to view the updaytes from the collaborator, you need to pull the repository ... 
+
+## If collaborators push at the same time
+
+There will be conflicts and git will not allow pushing 
